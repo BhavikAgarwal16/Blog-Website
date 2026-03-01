@@ -100,3 +100,19 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
+/* additional footer bar */
+.footer-bar {
+    background: #222;
+    color: #fff;
+    padding: 10px 0;
+}
+.footer-bar a {
+    color: #ffd700;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.footer-bar a:hover {
+    text-decoration: underline;
+}

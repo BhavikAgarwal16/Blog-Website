@@ -41,6 +41,25 @@ nav ul li a:hover {
     color: #ffd700;
 }
 
+/* button-based navbar styling */
+nav.navbar {
+    margin-top: 10px;
+}
+nav.navbar button {
+    background: #444;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    margin: 0 5px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background 0.2s;
+}
+nav.navbar button:hover {
+    background: #555;
+}
+
 main {
     max-width: 800px;
     margin: 30px auto;
